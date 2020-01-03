@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+aside{
+	float:right;
+	width:50%;
+	
+
+}
+#video
+{
+	position:absolute;
+	top:90px;
+	left:80px;
+}
+#a1
+{
+	position:absolute;
+	top:40px;
+	left:80px;
+}
+
+</style>
+<title>
+REGISTRATION PAGE</title>
+</head>
+<aside>
+<body  background="C:\Users\HP\Desktop\photo.jpg"style="background-repeat:no-repeat;background-size:cover">
+
+
+<form>
+<br>
+<br>
+<br>
+<legend align="center"><font color="white"><h1>Registration</h1></font></legend>
+<marquee ><font color="white"><b>#########Please fill the registration page#############</b></font></marquee>
+<center>
+<br>
+<font color="white"><b>First Name:</b></font>
+<input type="text" name="firstname" placeholder="First name" >
+<br/>
+<br/>
+<font color="white"><b>Last Name:</b></font>
+<input type="text" name="lastname" placeholder="Last name">
+<br/>
+<br/>
+<font color="white"><b>Mobile number:</b></font>
+<input type="text" name="number" placeholder="Mobile number">
+<br>
+<br>
+<font color="white"><b>Email id:</b></font>
+<input type="email"  placeholder="email"> 
+<br>
+<br>
+<font color="white"><b>Male</b></font><input type="radio" name="gender"  checked>
+<font color="white"><b>Female</b></font><input type="radio" name="gender" >
+<font color="white"><b>Others</b></font><input type="radio" name="gender" >
+<br>
+<br>
+<input type="submit" name="register">
+</form>
+<footer>
+<br>
+  <font color="white"><b>Posted by:Thulasi</b></font>
+  <p><font color="white"><b>Contact information:</b></font> <a href="prasad.html" target="blank"><font color="white"><b>thulasi@gmail.com</b></font></a></p>
+</footer>
+
+
+</center>
+</aside>
+<iframe  id="video" width="520" height="500" src="https://www.youtube.com/embed/NrmMk1Myrxc" frameborder="0" allow="accelerometer;  controls autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+<audio id="a1" controls autoplay>
+  <source src="C:\Users\HP\Desktop\Verithanam-Ringtone.mp3"  type="audio/ogg" >
+Your browser does not support the audio element.
+</audio>
+</body>
+</html>
