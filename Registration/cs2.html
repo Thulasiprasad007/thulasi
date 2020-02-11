@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script >
+		function validateform(){
+			var x=document.forms["myform"]["name"].value;
+			var y=document.forms["myform"]["password"].value;
+  			if (x == "") {
+    		alert("Name must be filled out");
+    		return false;
+ 			 }
+ 			 
+ 			 	else if(y.length<=8){
+				alert("Password must be 8 Characters long");
+				return false;
+			}
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="passport.css">
+	<title> USER REGISTRATION FORM</title>
+</head>
+<body style="background:#FFE77AFF;">
+	<div class="my">
+	<fieldset style="width: 400px;">
+	<legend style="text-decoration: underline;"><center><h1>REGISTRATION PAGE</h1></center></legend>
+	<table class="passport" align="center">
+		<form  name="myform" action="pass.html" onsubmit="return validateform()" method="post" style="line-height: 4px">
+		<tr>
+			<th>USER NAME </th>
+				<td>
+					<input type="text" name="name" ></td>			
+		</tr>
+		<tr>
+			<th>PASSWORD </th>
+				<td>
+					<input type="password" name="password"></td>			
+		</tr>
+		
+</tr>
+		<tr>
+			<th>ADDRESS</th>
+				<td>
+						   <textarea > </textarea>
+				</td>
+			</th>
+			<tr>
+		<th>COUNTRY</th>
+			<td>
+				<select>
+		<option ></option>
+		<option >AFRICA</option>
+		<option >AUSTRALIA</option>
+		<option >BELGIUM</option>
+		<option >CANADA</option>
+		<option >CHINA</option>
+		<option >INDIA</option>
+		<option>WEST INDIES</option>
+	</select></td>
+		</tr>
+		<tr>
+			<th>GENDER</th>
+				<td>
+					 <input type="radio" name="gender" value="male">MALE
+					<input type="radio" name="gender" value="female">FEMALE</td>
+			
+		</tr>
+		<th>LANGUAGES KNOWN</th>
+			<td>
+				<select>
+		<option ></option>
+		<option >ENGLISH</option>
+		<option >FRENCH</option>
+		<option >HINDI</option>
+		<option >TAMIL</option>
+		<option >TELUGU</option>
+	</select></td>
+		</tr>
+		<tr> 
+		<th>
+	<td>
+	<input type="submit" name="sub" onclick="validateform()">
+	</td>
+	</th>
+	</tr>
+
+	
+</form>
+</table>
+</fieldset>
+</div>
+<footer style="background:none;height:50px;opacity: 0.6;padding-right: 20px" align= center >Any quuries contanct admin@registration.com </footer>
+</body>
+</html>

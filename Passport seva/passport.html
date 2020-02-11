@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<link rel="stylesheet" type="text/css" href="passport.css">
+	<script >
+		function validateform(){
+			var x=document.forms["myForm"]["name"].value;
+			var y=document.forms["myForm"]["pass"].value;
+  			if (x == "") {
+    		alert("Name must be filled out");
+    		return false;
+ 			 }
+ 			 
+ 			 	if(y.length<=8){
+				alert("Password must be 8 Characters long");
+				return false;
+			}
+		}
+function reset() {
+	document.reset();
+}
+	</script>
+	<title>passport seva</title>
+</head>
+<body background="C:\Users\Thulasi Prasad\Desktop\assesment\Parliament.jpg"style="background-repeat:no-repeat;background-size:cover">
+	<fieldset>
+	<div id="header">
+		<legend><h1 align="center" style="color:orange;text-decoration: underline;">PASSPORT SEVA KENDRAM</h1></legend>
+		<img src="C:\Users\Thulasi Prasad\Desktop\assesment\d2a8eb0b4b4e790c300e72cf7deff03c.png" style="position:absolute;top:20px;left: 300px;width:100px;height:300px">
+		<img src="C:\Users\Thulasi Prasad\Desktop\assesment\passport-flag-travel-visa.jpg" style="position:absolute;top:20px;right: 300px;width:100px;height:100px">	
+	</div>
+		<form name="myForm" action="pass.html" onsubmit="return validateform()" method="post">
+	<table class="passport" align="center">
+	
+		<tr>
+			<th>USER NAME </th>
+				<td>
+					<input type="text" name="name"></td>			
+		</tr>
+		<tr>
+			<th>PASSWORD </th>
+				<td>
+					<input type="password" name="pass"></td>			
+		</tr>
+		<tr>
+		<th>QUALIFICATION</th>
+			<td>
+				<select>
+		<option ></option>
+		<option >B.Tech</option>
+		<option >B.Sc</option>
+		<option >B.A</option>
+		<option >B.Com</option>
+		<option >B.Ed</option>
+	</select></td>
+	
+	</tr>
+	<tr>
+		<tr>
+			<th>PRIMARY E-MAIL</th>
+				<td>
+						   <input type="email" name="primary e-mail">
+						   
+				</td>
+			</th>
+		</tr>
+		<th>SECONDARY E-MAIL</th>
+				<td>
+						   <input type="email" name="secondary e-mail">
+						  
+				</td>
+			</th>
+		</tr>
+		<tr>
+			
+		
+		<tr>
+			<th>LANDLINE</th>
+				<td>
+					<input type="text" name="mobile number" ></td>
+			
+		</tr>
+		<tr>
+			<th>MOBILE NUMBER</th>
+				<td>
+					<input type="text" name="mobile number" ></td>
+			
+		</tr>
+	<tr>
+		<th>Date of Birth</th>
+			<td>
+				<input type="date" name="date of birth" ></td>
+		
+	</tr>
+	
+	<tr>
+		<th>APPLY TYPE</th>
+			<td>
+				<select>
+		<option ></option>
+		<option >GENERAL</option>
+		<option >TATKAL</option>
+		<option >PREMIUM TATKAL</option>
+		
+	</select></td>
+	
+	</tr>
+	<th>GENDER</th>
+				<td>
+					 <input type="radio" name="gender" value="male">MALE
+					<input type="radio" name="gender" value="female">FEMALE</td>
+			
+		</tr>
+	<th>SECURITY QUESTION</th>
+			<td>
+				<select>
+		<option></option>
+		<option>WHAT IS YOUR FAVORITE DISH?</option>
+		<option >WHO IS YOUR CHILDHOOD HERO?</option>
+		<option >WHAT IS YOUR NICKNAME?</option>
+		<option >WHO IS YOUR ROLE MODEL?</option>
+		
+	</select></td>
+	<tr>
+			<th>SECURITY ANSWER </th>
+				<td>
+					<input type="text" name="security answer" ></td>			
+		</tr>
+		</table>
+		<input name="submit" type="image" value="submit" src="C:\Users\Thulasi Prasad\Desktop\assesment\97823005-submit-web-interface-button-green-color-electronic-report-online-declaration-stock-footage.jpg"  width="200px"  height="50px" style="opacity: 0.7;margin-bottom: 30px" onclick="validateForm()">
+		<input name="reset" type="image" src="C:\Users\Thulasi Prasad\Desktop\assesment\depositphotos_70278719-stock-illustration-reset-button-icon.jpg" width="200px" height="50px" style="padding-bottom: 30px;opacity: 0.9" onclick="reset()" >
+	</form>
+</fieldset>
+	
+</body>
+</html>

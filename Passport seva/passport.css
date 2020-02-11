@@ -1,0 +1,19 @@
+#header{
+
+	background-color:none;
+	height: 100px;
+
+}
+.passport{
+	
+	line-height: 50px;
+
+}
+input[name="submit"]{
+	margin-left: 550px;
+
+}
+form{
+	color: orange;
+	font-size: 20px
+}

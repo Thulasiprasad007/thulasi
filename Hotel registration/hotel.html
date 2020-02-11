@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<script >
+		function validateform(){
+			var x=document.forms["myform"]["name"].value;
+			var y=document.forms["myform"]["password"].value;
+  			if (x == "") {
+    		alert("Name must be filled out");
+    		return false;
+ 			 }
+ 			 
+ 			 	else if(y.length<=8){
+				alert("Password must be 8 Characters long");
+				return false;
+			}
+		}
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="passport.css">
+	<title>HOTEL REGISTRATION FORM</title>
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<div class="color">
+		<h1 align="center" style="padding-top: 24px;">User Registration Screen</h1>	
+	</div >
+	<form style="line-height: 4"class="sty" name="myform" onsubmit="return validateform()" action="action.html">
+		<table align="center">
+			<tr>
+			<th>USER NAME </th>
+				<td>
+					<input type="text" name="name" ></td>			
+		</tr>
+		<tr>
+			<th>PASSWORD </th>
+				<td>
+					<input type="password" name="password" ></td>			
+		</tr>
+		
+			<th>RE-ENTER PASSWORD </th>
+				<td>
+					<input type="password" name="rpassword" ></td>			
+		</tr>
+		<tr>
+			<th>E-MAIL</th>
+				<td>
+						   <input type="email" name="primary e-mail">
+						   
+				</td>
+			</th>
+		</tr>
+		
+		<tr>
+			<th>LANDLINE</th>
+				<td>
+					<input type="text" name="mobile number" ></td>
+			
+		</tr>
+		<tr>
+			<th>MOBILE NUMBER</th>
+				<td>
+					<input type="text" name="mobile number" ></td>
+			
+		</tr>
+		</table>
+		<input name="submit" type="image" src="C:\Users\Thulasi Prasad\Desktop\assesment\register\97823005-submit-web-interface-button-green-color-electronic-report-online-declaration-stock-footage.jpg"  width="100px"  height="50px" onclick="validateform()">
+		<input name="reset" type="image" src="C:\Users\Thulasi Prasad\Desktop\assesment\register\depositphotos_70278719-stock-illustration-reset-button-icon.jpg" width="100px" height="50px" style="padding-left: 50px">
+		</form>
+		<footer class="foot" align=center> This website and its content is copyright of User Registration Screen.</footer>
+</body>
+</html>

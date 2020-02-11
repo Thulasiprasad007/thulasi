@@ -1,0 +1,35 @@
+#header{
+
+	background-color:lightgray;
+	height: 100px;
+
+}
+.passport{
+	
+	line-height: 50px;
+
+}
+input[name="submit"]{
+	margin-left: 550px;
+
+
+}
+.color{
+	background-color: lightyellow;
+	color: brown;
+	height: 50px;
+	font-style:bold;
+}
+.foot{
+	font-size:20px;
+	color: lightblue;
+	background-color: olive;
+}
+.sty{
+	background-color:lightblue;
+	
+}
+.my{
+	padding-left: 450px;
+	padding-top: 50px;
+}
