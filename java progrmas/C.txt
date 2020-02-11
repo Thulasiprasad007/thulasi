@@ -1,0 +1,14 @@
+Class Choco
+{
+public static void main(String...args)
+{
+  int choclates=25;
+  int childrens=7;
+  for(int i=1;i<=childrens.length();i++)
+  {
+    if(choclates>childrens)
+      choclate=choclates-1;
+    System.out.pritln(choclates);
+}
+}
+}

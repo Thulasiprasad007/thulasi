@@ -1,0 +1,24 @@
+class A
+{
+public static void main(String...args)
+{
+  int a,b;
+  System.out.println("enter the date bt 1 to 31");
+  Scanner scan=new Scanner(System.in);
+  a=scan.nextInt();
+  if(a>=1&&a<=31)
+  {
+     System.out.println(" please enter the billno");
+     Scanner scan=new Scanner(System.in);
+     b=scan.nextInt();
+      if(b==a||b%3==0)
+       {
+          System.out.println("your a an lucky customer");
+       }
+       else
+       {
+          System.out.println("Sorry your not a lucky Custmoer");
+       }
+  }
+}
+}
