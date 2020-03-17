@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <servlet-name>Servlet2</servlet-name>
+    <servlet-class>Servlet2</servlet-class>
+    <init-param>
+      <param-name>Ename</param-name>
+      <param-value>R Thulasi Prasad</param-value>
+    </init-param>
+    <init-param>
+      <param-name>Phno</param-name>
+      <param-value>9966094340</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet2</servlet-name>
+    <url-pattern>/Servlet2</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>Tip1</param-name>
+    <param-value>Thulasi</param-value>
+  </context-param>
+  <context-param>
+    <param-name>Tip2</param-name>
+    <param-value>He is a GoodBoy</param-value>
+  </context-param>
+</web-app>
