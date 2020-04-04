@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+body {
+    background: url(../images/photo-1522071820081-009f0129c71c.jpg);
+    background-repeat:no-repeat;
+     background-size: cover;
+     color: white;    
+}
